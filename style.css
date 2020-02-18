@@ -1,0 +1,119 @@
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    border: 0%;
+    padding: 0%;
+}
+.HEADER
+{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-size: 21px;
+}
+h3
+{
+font-size: 33px;
+margin: 0em;
+margin-left: 1.3em;
+margin-top: 0.5em;
+
+}
+a:link
+{
+color: white;
+text-decoration: none;
+}
+
+.navv li{
+    list-style-type: none;
+    margin: 0% 0.8em;
+    transform: translate(-150px,0px);
+}
+
+.navv
+{
+    display: flex;
+    justify-content: space-between;
+    border-right:5%;
+
+}
+.drop
+{
+    display:none;
+    transform: translate(-3em,0.5em);
+    padding-top: 0.2em;
+    width: 25%;
+}
+.drophover:hover .drop
+{
+display: block;
+position: absolute;
+
+}
+.block2
+{
+    
+    display: none;
+    
+    
+    color: blanchedalmond;
+    height:90px;
+}
+.submenu:hover .block2
+{
+display: block;
+}
+.block3
+{
+    display: none;
+
+}
+.submenu3:hover .block3
+{
+    display: block;
+}
+.side
+{
+    font-size: 1.92em;
+    list-style-type: none;   
+    background-color: white;
+    transform: translate(1em,0);
+    width: 23%;
+    margin-top: 1em;
+}
+.side li
+{
+    border-bottom:1px solid;
+}
+.logo
+{
+    background-color: black;
+    color: white;
+    margin-left: -1.4em;
+    list-style-type: none;
+    height: 1.5em;
+    text-indent: 0.5em;
+    
+}
+.homedesign li{
+    
+    font-size: 20px;
+    list-style-type: none;
+    text-indent: 1.8em;
+    margin-top: 1em;
+        
+}
+.about 
+{
+    list-style-type: none;
+    margin-left: -1.4em;
+    text-indent: 0.5em;
+}
+.home
+{
+    list-style-type: none;
+    margin-left: -1.4em;
+    text-indent: 0.5em;
+}
